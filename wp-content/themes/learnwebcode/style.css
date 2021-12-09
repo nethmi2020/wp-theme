@@ -1,0 +1,202 @@
+/* 
+
+theme name: Learnwebcode
+Author:nethmi
+Version:1.0
+*/
+
+/* pw-12345 */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    
+}
+
+a:link,
+a:visited{
+    color:blue;
+}
+
+p{
+    line-height: 1.65em;
+}
+
+div.container{
+    max-width: 920px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.site-header{
+    border-bottom:2px solid black ;
+}
+
+.site-footer{
+    margin-top: 30px;
+    border-top:2px solid black ;
+}
+
+article.post{
+border-bottom: 2px dashed black;
+}
+
+article.post:last-of-type{
+    border-bottom: none;
+}
+
+/* nav menus */
+.side-nav {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.side-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px;
+    font-size: 20px;
+  
+    padding: 5px 10px;
+}
+.side-nav ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+   
+
+}
+.side-nav ul li :hover{
+    color:white;
+    background-color: blue;
+    
+}
+
+.side-nav ul li.current-menu-item a:link,
+.side-nav ul li.currant-menu-item a:visited,
+.side-nav ul li.current-page-ancestor a:link,
+.side-nav ul li.currant-page-ancestor a:visited
+{
+    color:white;
+    background-color: rgba(0, 0, 255, 0.199);
+}
+
+.side-nav-footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px 8px;
+    font-size: 20px;
+
+}
+.side-nav-footer ul li a{
+  text-decoration: none;
+  padding-right: 10px;
+ border-right: 1px solid black;
+}
+/* page layout */
+article .page{
+    font-size: 300%;
+}
+
+/* About us page */
+.title-column{
+    width: 30%;
+    float: left;
+}
+.title-text{
+    width: 70%;
+    float: right;
+}
+
+/* info-boox */
+div .info-box{
+    width: 30%;
+    float: right;
+    margin: 0 0 30px 30px;
+    padding: 20px;
+    background-color: burlywood;
+}
+
+div .info-box h4{
+    margin-bottom: 6px;
+}
+
+div .info-box p{
+    font-size: 85%;
+}
+
+/* children links */
+.children-links .parent-linker{
+    float: left;
+    margin-right: 20px;
+
+}
+.parent-linker a {
+    text-decoration: none;
+    font-size: 20px;
+    
+   
+}
+
+.children-links .parent-linker a:link,
+.children-links .parent-linker a:visited{
+    color: rgb(38, 0, 255);
+}
+
+.children-links .current_page_item  a:link,
+.children-links .current_page_item  a:visited{
+
+    color: darkolivegreen;
+    cursor: default;
+}
+/* post styles */
+
+.post h2{
+    margin-bottom: 0;
+}
+
+p.post-info{
+    font-size: 97%;
+    color: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited{
+    color: #999;
+
+}
+
+
+/* image  */
+
+img{
+    max-width: 100%;
+    max-height: 200px;
+}
+.has-thumbnail{
+    position: relative;
+    padding-left: 200px;
+}
+
+.post-thumbnail{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+div.hd-search{
+    float: right;
+   
+}
+
+ div.hd-search label{
+    position: absolute;
+    left: -999px; 
+} 
+
+div.hd-search #searchsubmit{
+    background-color: rgba(59, 59, 245, 0.932);
+    color: white;
+    padding: 5px 14px;
+}
